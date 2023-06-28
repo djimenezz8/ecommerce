@@ -26,7 +26,7 @@ get_header();
                 </p>
 
             </li>
-            <li class="col-12 col-sm-6 tarjetas-section 1">
+            <li class="col-12 col-sm-6 tarjetas-section">
                 <div class="row">
                     <div class="col-12 col-sm-6 d-flex align-items-center  mt-3 mb-3">
                         <div class="icono me-3 ms-2">
