@@ -1,0 +1,3 @@
+2023-06-20T18:34:41+00:00 ERROR Solicitud de GET: https://api.pinterest.com/ads/v4/advertisers/countries
+Código de estado: 401
+Respuesta del API: Vuelve a conectar tu cuenta de Pinterest

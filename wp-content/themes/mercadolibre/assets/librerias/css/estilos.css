@@ -1,0 +1,521 @@
+.post,
+.page {
+    margin: 0 !important;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.site-header {
+    background-color: #fff159;
+}
+
+.custom-logo {
+    height: 38px;
+    width: 140px;
+}
+
+.menu-item {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgba(108, 108, 108, 1);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a:hover {
+    color: black;
+}
+
+.menu-item a:visited {
+    color: none;
+}
+
+.info-pago {
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgba(179, 179, 179, 0.47);
+}
+
+.info-pago p {
+    margin: 0;
+}
+
+.paga-comodo::before {
+    background-color: #3483fa;
+    content: "";
+    width: 4px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.paga-comodo {
+    border-right: 1px solid #eee;
+}
+
+.tarjetas-section {
+    border-right: 1px solid #eee;
+}
+
+.ver-mas {
+    font-size: 14px;
+}
+
+.comodo-seguro {
+    font-size: 18px;
+}
+
+.subtitulo {
+    font-size: 14px;
+    color: #999;
+}
+
+.a-footer {
+    background-color: white;
+}
+
+.a-footer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.a-footer-img {
+    max-width: 66px;
+    max-height: 46px;
+}
+
+#a-footer-img-2 .a-footer-img {
+    max-width: 56px;
+    max-height: 49px;
+}
+
+#a-footer-img-3 .a-footer-img {
+    max-width: 51px;
+    max-height: 55px;
+}
+
+.card {
+    border: none;
+    background-color: #ebebeb;
+}
+
+.color-colap {
+    border: 0;
+    font-size: 14px;
+}
+
+.footer-2 {
+    background-color: white;
+}
+
+.footer-mini {
+    color: #999;
+    font-size: 12px;
+}
+
+.f-text1 {
+    font-size: 13px;
+    color: black;
+    font-weight: 300;
+}
+
+.nav-tabs {
+    background-color: white;
+}
+
+
+.link-primary {
+    text-decoration: none;
+}
+
+#menu-acerca-de,
+#menu-otros-sitios,
+#menu-ayuda,
+#menu-redes-sociales,
+#menu-mi-cuenta,
+#menu-mercado-puntos {
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu-acerca-de,
+#menu-otros-sitios,
+#menu-ayuda,
+#menu-redes-sociales,
+#menu-mi-cuenta,
+#menu-mercado-puntos,
+ul {
+    list-style: none;
+}
+
+.titulo-menu-footer {
+    font-size: 14px;
+}
+
+#menu-item-139 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-140 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-141 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-142 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-143 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-144 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-145 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-146 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-147 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-148 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-149 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-150 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-151 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-152 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-153 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-154 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-155 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-156 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-157 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-158 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-159 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-160 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+#menu-item-161 a:hover {
+    text-decoration: underline;
+    color: rgba(108, 108, 108, 1);
+    ;
+}
+
+.disney {
+    max-width: 340px;
+    max-height: 39px;
+}
+
+.icono {
+    width: 48px;
+    height: 48px;
+}
+
+.ubicacion-2 {
+    display: none;
+}
+
+.tu-ubicacion {
+    color: black;
+}
+
+.ubicacion {
+    font-size: 12px;
+    line-height: normal;
+    cursor: pointer;
+    width: 110px;
+    padding: 5px;
+    border: 0.5px solid rgba(128, 128, 128, 0);
+}
+
+.ubicacion:hover {
+    border: 0.5px solid rgba(128, 128, 128, 0.19);
+    border-radius: 5%;
+}
+
+.prem {
+    padding-top: 0.5rem;
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: end;
+}
+
+#menu-personalizado2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.card-streaming {
+    height: 250px;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    border-radius: 1rem;
+}
+
+.card-streaming:hover {
+    cursor: pointer;
+}
+
+.degrade-streaming {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 1rem;
+}
+
+.contenido-streaming {
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#streaming-card-1 .card-streaming .degrade-streaming {
+    background: linear-gradient(0deg, rgb(0, 8, 49) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+#streaming-card-2 .card-streaming .degrade-streaming {
+    background: linear-gradient(0deg, rgb(76, 10, 96) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+#streaming-card-3 .card-streaming .degrade-streaming {
+    background: linear-gradient(0deg, rgb(1, 38, 184) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.logo-streaming {
+    width: 80px;
+    height: 80px;
+}
+
+.logo-streaming img {
+    border-radius: 5px;
+}
+
+.text-streaming {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.excerpt-streaming {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.title-streaming {
+    font-size: 18px;
+}
+
+/* Aqui comenzamos editando la página de producto */
+
+/* aqui comenzamos editando la pagina de carrito */
+.woocommerce-cart-form {
+    background-color: white;
+    border-radius: 0.4rem;
+}
+
+.nombre-producto-carrito {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nombre-producto-carrito:visited {
+    color: black;
+}
+
+.product-thumbnail .attachment-woocommerce_thumbnail {
+    width: 48px !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+.total-carrito {
+    background-color: white;
+    margin-left: 2rem;
+    border-radius: 0.4rem;
+}
+
+.wc-proceed-to-checkout .button {
+    background-color: #3483fa !important;
+    border-radius: 0.5rem !important;
+}
+
+.product-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.entry-header h1 {
+    display: none;
+}
+
+.titulo-resumen-compra {
+    font-size: 16px;
+}
+
+.shop_table {
+    border: none !important;
+}
+
+.producto-resumen {
+    font-size: 14px;
+}
+
+.edit-link {
+    display: none;
+}
+
+/* aqui editamos pagina checkout */
+.woocommerce-billing-fields {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+#customer-details{
+    display: flex;
+    flex-direction: column;
+}
+#order_review{
+    margin-left: 2rem;
+    background-color: #f5f5f5;
+}
+#place_order{
+    background-color: #3483fa;
+    border-radius: 0.3rem;
+}
+@media (max-width: 576px) {
+    .medq-disney {
+        display: none;
+    }
+
+    .ubicacion {
+        display: none !important;
+    }
+
+    .navbar-toggler {
+        margin-left: 2rem;
+    }
+
+    .ubicacion-2 {
+        display: flex;
+        align-items: center;
+        width: 94%;
+    }
+
+    #menu-personalizado2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-2 {
+        justify-content: start;
+    }
+}

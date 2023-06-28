@@ -1,0 +1,15 @@
+2023-06-20T01:11:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_directory_url() in /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/inc/css-functions.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/class-wp-hook.php(308): css_wordpress('')
+#1 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/wordpress/ecommerce/ en /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/inc/css-functions.php en la línea 7
+
+2023-06-20T19:38:13+00:00 CRITICAL Cannot redeclare streaming_categoria() (previously declared in /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/modulos/modulo-productos/core-streaming.php:43) en /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/modulos/modulo-productos/core-streaming.php en la línea 60
+
+2023-06-20T19:38:14+00:00 CRITICAL Cannot redeclare streaming_categoria() (previously declared in /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/modulos/modulo-productos/core-streaming.php:43) en /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/modulos/modulo-productos/core-streaming.php en la línea 60
+
