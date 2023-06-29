@@ -1,0 +1,9 @@
+2023-06-29T05:11:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/inc/funciones-woocommerce(1).php on line 68 and at least 2 expected in /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/plugin.php:612
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/inc/funciones-woocommerce(1).php(68): remove_action('woocommerce_aft...')
+#1 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/assets/assets.php(7): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-content/themes/mercadolibre/functions.php(179): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-settings.php(591): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-config.php(96): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/wordpress/ecommerce/wp-load.php(50): re en /Applications/MAMP/htdocs/wordpress/ecommerce/wp-includes/plugin.php en la línea 612
+

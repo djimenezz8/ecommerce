@@ -411,7 +411,201 @@ ul {
     font-size: 18px;
 }
 
+.part1 {
+    background: rgb(142, 32, 124);
+    background: linear-gradient(100deg, rgba(142, 32, 124, 1) 55%, rgba(12, 26, 81, 1) 90%);
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 1rem;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.titulo-nivel6 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.valor-nivel6 {
+    color: white;
+    border-left: 2px solid #fff;
+}
+
+.valor-anterior {
+    text-decoration-line: line-through;
+    margin: 0;
+}
+
+.valor-nuevo {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.part2 {
+    background-color: white;
+}
+
+.nivel6-hr {
+    width: 98%;
+}
+
+.card-footer {
+    background-color: white;
+}
+
+.img-sub {
+    width: 82px;
+    height: 82px;
+    margin-right: 0.5rem;
+}
+
 /* Aqui comenzamos editando la página de producto */
+.flex-viewport {
+    order: 1;
+}
+
+.flex-control-nav {
+    margin: 0;
+}
+
+.flex-control-nav li {
+    list-style-type: none;
+}
+
+.flex-control-nav img {
+    margin: 0.4rem;
+    border: 0.5px solid rgba(128, 128, 128, 0.238);
+    padding: 0.4rem;
+}
+
+.summary {
+    border: 0.5px solid rgba(128, 128, 128, 0.238);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-vendedor {
+    border: 0.5px solid rgba(128, 128, 128, 0.238);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.metodo-de-pago {
+    border: 0.5px solid rgba(128, 128, 128, 0.238);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1.entry-title {
+    order: -1;
+    font-size: 22px;
+}
+
+.summary p.price {
+    font-size: 36px;
+}
+
+.descripcion {
+    width: 65%;
+}
+
+.type-product {
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+form.cart {
+    display: flex;
+}
+
+.quantity {
+    margin-right: 1rem;
+}
+
+button.single_add_to_cart_button.button.wp-element-button {
+    background-color: #3483fa;
+}
+
+button.single_add_to_cart_button.button.wp-element-button:hover {
+    background-color: #3483fa;
+}
+
+.woocommerce-product-gallery__trigger {
+    display: none;
+}
+
+#tab-title-description {
+    display: none;
+}
+
+#tab-title-additional_information {
+    display: none;
+}
+
+.woocommerce-Price-amount {
+    background-color: white;
+}
+
+del span.woocommerce-Price-amount.amount {
+    color: rgb(70, 138, 70);
+    font-size: 18px;
+}
+
+.product_meta {
+    margin-top: 2rem;
+}
+
+.product_meta a {
+    text-decoration: none;
+    color: black;
+}
+
+.product_meta a:visited {
+    color: black;
+}
+
+.related.products h2 {
+    opacity: 1;
+}
+
+.related.products a {
+    color: #000;
+}
+
+.related.products a:visited {
+    color: #000;
+}
+
+.post-navigation {
+    display: none;
+}
+
+.logged-in-as {
+    display: none;
+}
+
+.comments-area {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
 
 /* aqui comenzamos editando la pagina de carrito */
 .woocommerce-cart-form {
@@ -446,15 +640,15 @@ ul {
     border-radius: 0.5rem !important;
 }
 
+.wc-proceed-to-checkout .button:hover {
+    background-color: #3483fa !important;
+}
+
 .product-thumbnail {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-}
-
-.entry-header h1 {
-    display: none;
 }
 
 .titulo-resumen-compra {
@@ -479,18 +673,26 @@ ul {
     padding: 1rem;
     border-radius: 0.3rem;
 }
-#customer-details{
+
+#customer-details {
     display: flex;
     flex-direction: column;
 }
-#order_review{
+
+#order_review {
     margin-left: 2rem;
     background-color: #f5f5f5;
 }
-#place_order{
+
+#place_order {
     background-color: #3483fa;
     border-radius: 0.3rem;
 }
+
+.woocommerce-checkout-payment {
+    background-color: #f5f5f5 !important;
+}
+
 @media (max-width: 576px) {
     .medq-disney {
         display: none;
@@ -517,5 +719,19 @@ ul {
 
     .nav-2 {
         justify-content: start;
+    }
+
+    .total-carrito {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    #order_review {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .valor-nuevo {
+        font-size: 20px;
     }
 }

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Home-Page
  *
@@ -129,14 +130,52 @@ get_header();
     <?php include get_template_directory() . '/assets/modulos/modulo-productos/loop-principal.php'; ?>
 </div>
 <div class="container">
-    <?php include get_template_directory() . '/assets/modulos/modulo-productos/loop-streaming.php'; ?>
+    <div class="col-12 col-sm-12 mb-3">
+        <div class="card p-0">
+            <div class="part1 d-flex justify-content-between align-items-center text-light header-sub">
+                <h2> Suscríbete al nivel 6 </h2>
+                <div class="border-start ps-3">
+                    <span class="text-decoration-line-through">$
+                        15.000 </span><br>
+                    <span class="valor-nuevo">$
+                        5.999 / mes
+                    </span>
+                </div>
+            </div>
+            <div class="card-body">
+                <p>Consigue los mejores beneficios en Mercado Libre </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mt-2">
+                            <img class="rounded-circle border img-sub" src="http://localhost:8888/ecommerce/wp-content/uploads/2023/06/disney-imagen.jpg" alt="">
+                            <span> Disney+ sin cargo </span>
+                        </div>
+                        <div class="col-12 col-sm-4 mt-2">
+                            <img class="rounded-circle border img-sub" src="http://localhost:8888/ecommerce/wp-content/uploads/2023/06/star-imagen.jpg" alt="">
+                            <span> Star+ sin cargo </span>
+                        </div>
+                        <div class="col-12 col-sm-4 mt-2">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle border img-sub" src="http://localhost:8888/ecommerce/wp-content/uploads/2023/06/camion-imagen.png" alt="">
+                                <span>Envíos gratis y rápidos desde $ 19.990 y 40% OFF en envíos de menos de $ 19.990 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+                <div><a href="#" class="btn btn-primary text-white text-light">Suscríbete</a></div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="container">
+    <?php include get_template_directory() . '/assets/modulos/modulo-productos/loop-streaming.php'; ?>
     <?php include get_template_directory() . '/assets/modulos/modulo-productos/loop-categoria.php'; ?>
 </div>
 <div class="container-fluid a-footer p-0">
     <div class="container">
-    <?php include get_template_directory() . '/assets/modulos/modulo-productos/loop-footer.php'; ?>
+        <?php include get_template_directory() . '/assets/modulos/modulo-productos/loop-footer.php'; ?>
     </div>
 </div>
 <?php

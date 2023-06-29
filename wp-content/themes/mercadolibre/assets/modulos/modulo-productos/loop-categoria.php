@@ -34,8 +34,8 @@
 		?>
 				<div class="col-12 slidel p-0" id="width-card">
 					<div class="card-categoria">
-					<?php the_field('foto_categoria');?>
-					<h4 class="mt-3 titulo-categoria"><?php echo get_the_title(); ?></h4>
+						<?php the_field('foto_categoria'); ?>
+						<h4 class="mt-3 titulo-categoria"><?php echo get_the_title(); ?></h4>
 					</div>
 				</div>
 		<?php

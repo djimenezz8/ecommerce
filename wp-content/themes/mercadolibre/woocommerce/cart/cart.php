@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_cart' ); ?>
 
-<form class="woocommerce-cart-form col-12 col-sm-7 p-0" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
+<form class="woocommerce-cart-form col-12 col-sm-7 p-0 carrito" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 	<?php do_action( 'woocommerce_before_cart_table' ); ?>
 	<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents m-0 border-0" cellspacing="0">
 		<thead>
@@ -138,7 +138,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 			<?php do_action( 'woocommerce_cart_contents' ); ?>
 
-			<tr>
+			<!-- <tr>
 				<td colspan="6" class="actions">
 
 					<?php if ( wc_coupons_enabled() ) { ?>
@@ -154,7 +154,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 					<?php wp_nonce_field( 'woocommerce-cart', 'woocommerce-cart-nonce' ); ?>
 				</td>
-			</tr>
+			</tr> -->
 
 			<?php do_action( 'woocommerce_after_cart_contents' ); ?>
 		</tbody>

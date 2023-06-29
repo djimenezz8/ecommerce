@@ -63,5 +63,4 @@ add_action('woocommerce_after_add_to_cart_button', 'mostrar_cuotas_single', 25);
 
 remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10); //Remover botón ver más
 
-
-
+remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_sale_flash', 10 );

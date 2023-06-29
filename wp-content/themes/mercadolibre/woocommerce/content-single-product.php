@@ -71,6 +71,17 @@ if ( post_password_required() ) {
 	 */
 	do_action( 'woocommerce_after_single_product_summary' );
 	?>
+	<div class="info-vendedor">
+		<h5 class="info-title-summary">Información del vendedor</h3>
+	</div>
+	<div class="metodo-de-pago">
+		<h5 class="info-title-summary">Medios de pago</h5>
+		<p>Tarjetas de crédito</p>
+		<img src="http://localhost:8888/ecommerce/wp-content/uploads/2023/06/creditos.png" alt="">
+		<p>Tarjetas de débito</p>
+		<img src="http://localhost:8888/ecommerce/wp-content/uploads/2023/06/debito.png" alt="">
+	</div>
+	
 </div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>

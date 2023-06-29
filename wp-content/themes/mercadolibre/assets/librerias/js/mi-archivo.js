@@ -1,4 +1,6 @@
 jQuery(function ($) {
+
+    $(document).ready(function() {
     // Selecciona el elemento con el ID "carrusel-productos" y llama al método "slick" para inicializar el carrusel
     $('#carrusel-productos').slick({
         slidesToShow: 5, // Número de diapositivas a mostrar en cada paso
@@ -69,7 +71,7 @@ jQuery(function ($) {
         }
     });
     $("article").each(function () {
-        $(this).parent().addClass("container");
+        $(this).parent().addClass("container mt-5");
     });
     $("div.woocommerce-product-gallery").each(function () {
         $(this).parent().removeClass("product");
@@ -78,7 +80,7 @@ jQuery(function ($) {
         $(this).parent().addClass("row");
     });
     $("div.woocommerce-product-gallery").each(function () {
-        $(this).addClass("col-10 col-sm-8 row d-flex");
+        $(this).addClass("col-11 col-sm-8 row d-flex");
     });
     $("div.summary").each(function () {
         $(this).addClass("col-10 col-sm-4");
@@ -91,6 +93,19 @@ jQuery(function ($) {
     $(".cart_totals h2").remove();
     $(".cart_totals").first().before(" <h3 class='titulo-resumen-compra m-2 mt-3 mb-3'>Resumen de productos</h3> "); 
     $(".cart-subtotal th").remove();
-    $(".cart-subtotal").prepend("<th class='fw-normal producto-resumen m-0'>Producto</th>")
+    $(".cart-subtotal").prepend("<th class='fw-normal producto-resumen m-0'>Producto</th>");
+    $(".flex-viewport").addClass("col-10 col-sm-8");
+    $(".flex-control-nav").addClass("col-2 col-sm-4");
+    $(".entry-title").appendTo("div.summary");
+    $(".ui-pdp-description").parent().removeClass();
+    $(".woocommerce-tabs").addClass("col-12 descripcion");
+    $(".descripcion").after("<div class='second-summary col-12 col-sm-4'></div>");
+    $(".info-vendedor").appendTo("div.second-summary");
+    $(".metodo-de-pago").appendTo("div.second-summary");
+    $(".carrito").parent().parent().prev().remove();
+    $(".carrito").parent().parent().addClass("container");
+    $(".checkout").parent().parent().addClass("container");
 });
 
+     // También puedes realizar otras acciones o inicializaciones
+    });
