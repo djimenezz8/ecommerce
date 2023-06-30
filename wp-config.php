@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'diegjimenezs_ecommerce' );
+define( 'DB_NAME', 'diegoecommerce' );
 
 /** Database username */
-define( 'DB_USER', 'diegjimenezs_ecommerce' );
+define( 'DB_USER', 'diegoecommerce' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'Cadin2418' );
+define( 'DB_PASSWORD', 'diegoecommerce' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
